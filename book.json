@@ -1,0 +1,40 @@
+{
+  "title": "k8s分享",
+  "author": "miracle",
+  "description": "开发环境Goland+k8s插件，编写yaml并部署于k8s中",
+  "language": "zh-hans",
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "-lunr", "-search", "search-pro",
+    "chapter-fold",
+    "expandable-chapters",
+    "splitter",
+    "page-treeview",
+    "back-to-top-button",
+    "popup",
+    "prism", "-highlight",
+    "hide-element",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+    "page-treeview": {
+      "style": "markdown",
+      "copyright": "Copyright Infra"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "tbfed-pagefooter": {
+      "copyright":"",
+      "modify_label": "该文件最后修改时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
